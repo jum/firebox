@@ -1,1 +1,1 @@
-# firebox
+# fireboxA small go language command line utility to convert firebox(http://firevault.me/firebox.html) password safe CSV export files topwSafe (https://pwsafe.info/) CSV files. Firebox for iPhone has not beenupdated in ages so I decided to convert all my password data to pwSafe,the result was this small utility. Be aware that there is a big switchin the conversion logic that refers to my structure of my fireboxpasword safe, you will have to change it to your structure.
