@@ -1,0 +1,26 @@
+pwSafe can import data from other apps, provided the data conforms to either the comma-separated-values (CSV) or tab-separated-values (TXT) formats.
+
+To import your data, follow these steps:
+
+    Export your data to CSV format.
+    Conform your data to the expected format (see below). You can use a spreadsheet editor like Excel or Numbers for that.
+    On pwSafe, import your data using the "File", "Import..." menu functions or ⌘ + I keyboard shortcut.
+    Securely delete the CSV or TXT file, because these are not encrypted.
+
+The CSV or TXT formats must adhere to this rules:
+
+    A title row as the first line in the text file.
+    A delimiter to reinstate the 'newline' character in a multi-line Notes field and the period ('.'), if present, in the Title field. The delimiter is '»'.
+    The title row may contain the following fields:
+        Group/Title (eg. "group.subgroup.title")
+        Username
+        Password
+        URL
+        Created Time
+        Password Modified Time
+        Record Modified Time
+        e-mail
+        Protected Status
+        Symbol list for password generation
+        Notes
+    Subsequent rows must contain an entry each, with the data fields ordered according to their appearance on the title row.
